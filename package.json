@@ -1,0 +1,26 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "API rest with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gileno29/API-REST-NODEJS.git"
+  },
+  "author": "Gileno Cordeiro Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gileno29/API-REST-NODEJS/issues"
+  },
+  "homepage": "https://github.com/Gileno29/API-REST-NODEJS#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
