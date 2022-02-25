@@ -9,9 +9,10 @@ conexao.connect(erro=>{
             console.log(erro)
         }else{
             console.log('conectado')
+            app.listen(3000, () => console.log('servidor rodando na porta 3000'))
         }
     })
-app.listen(3000, () => console.log('servidor rodando na porta 3000'))
+
 
 //req --> o que foi enviado para a  gente
 //res --> nossa resposta para quem requisitou
