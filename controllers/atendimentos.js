@@ -9,6 +9,6 @@ app.post('/atendimentos',(req, res)=> {
     console.log(req.body)
     const atendimento= req.body
     Atendimento.adiciona(atendimento)
-    res.send('Você está na rota de atendimentos e está enviando um POST')
+    res.send( 'atendimentos=> POST enviado')
 })
 }
