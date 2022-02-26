@@ -8,7 +8,8 @@ app.get('/atendimentos', (req, res)=> res.send('você está na rota de atendimen
 app.post('/atendimentos',(req, res)=> {
     console.log(req.body)
     const atendimento= req.body
-    Atendimento.adiciona(atendimento)
-    res.send( 'atendimentos=> POST enviado')
+    
+    Atendimento.adiciona(atendimento, res, req)
+    
 })
 }
