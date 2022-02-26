@@ -7,8 +7,10 @@ module.exports = () =>{
 
     const app= express()
     //a funcao use vem do proprio express
+    //app.listen(3000)
     app.use(express.urlencoded({extended: true}))
     app.use(express.json())
+    
 
     //usado para fazer agrupamento de modulos.
     consign()
